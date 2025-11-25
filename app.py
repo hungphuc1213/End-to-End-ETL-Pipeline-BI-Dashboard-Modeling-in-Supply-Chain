@@ -5,7 +5,7 @@ import json
 # ============================
 # 🔧 1. THAY ĐƯỜNG DẪN API TẠI ĐÂY
 # ============================
-API_URL = "http://127.0.0.1:8000/docs"   # <-- sửa thành URL API FastAPI khi deploy
+API_URL = "http://127.0.0.1:8000/predict"
 # ============================
 
 st.set_page_config(page_title="Cảnh báo Đơn hàng", layout="wide")
